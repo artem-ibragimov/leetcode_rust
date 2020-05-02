@@ -2,11 +2,7 @@
 mod tests {
 
    fn single_number(nums: Vec<i32>) -> i32 {
-      let mut xor: i32 = 0;
-      for n in nums {
-         xor = xor ^ n;
-      }
-      xor
+      nums.iter().fold(0, |xor, n| xor ^ n)
    }
 
    #[test]
