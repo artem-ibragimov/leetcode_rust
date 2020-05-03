@@ -3,4 +3,5 @@ pub mod contains_duplicate;
 pub mod single_number;
 pub mod max_profit;
 pub mod intersect;
+pub mod plus_one;
 pub mod rotate;
