@@ -1,8 +1,9 @@
 mod remove_duplicates_sorted;
 mod contains_duplicate;
 mod single_number;
+mod move_zeroes;
 mod max_profit;
 mod intersect;
 mod plus_one;
+mod two_sum;
 mod rotate;
-mod move_zeroes;
