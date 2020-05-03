@@ -1,7 +1,8 @@
-pub mod remove_duplicates_sorted;
-pub mod contains_duplicate;
-pub mod single_number;
-pub mod max_profit;
-pub mod intersect;
-pub mod plus_one;
-pub mod rotate;
+mod remove_duplicates_sorted;
+mod contains_duplicate;
+mod single_number;
+mod max_profit;
+mod intersect;
+mod plus_one;
+mod rotate;
+mod move_zeroes;
