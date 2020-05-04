@@ -2,6 +2,7 @@ mod remove_duplicates_sorted;
 mod contains_duplicate;
 mod single_number;
 mod valid_sudoku;
+mod rotate_image;
 mod move_zeroes;
 mod max_profit;
 mod intersect;
