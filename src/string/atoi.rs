@@ -4,10 +4,14 @@
 #[cfg(test)]
 mod test {
    fn my_atoi(s: String) -> i32 {
-      let s_trimed = s.trim();
-      let mut num: String = String::from("");
+      let mut s_trimed = s.trim().to_string();
+      let mut sign: char = '+';
+      if s_trimed.starts_with('+') || s_trimed.starts_with('-') {
+         sign = s_trimed.remove(0);
+      }
+      let mut num: String = sign.to_string();
       for c in s_trimed.chars() {
-         if !c.is_ascii_digit() && c != '-' && c != '+' {
+         if !c.is_ascii_digit() {
             break;
          }
          num.push(c);
