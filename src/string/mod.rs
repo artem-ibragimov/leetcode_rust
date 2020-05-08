@@ -1,3 +1,4 @@
+mod longest_prefix;
 mod valid_anagram;
 mod reverse_int;
 mod palindrome;
