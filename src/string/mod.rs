@@ -1,5 +1,6 @@
 mod longest_prefix;
 mod valid_anagram;
+mod count_and_say;
 mod reverse_int;
 mod palindrome;
 mod uniq_char;
