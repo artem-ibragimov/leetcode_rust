@@ -19,12 +19,12 @@ mod test {
    //    }
    //    remove(&head.unwrap().next, tail.unwrap().next)
    // }
-   #[test]
-   fn remove_nth_from_end_test() {
-      let before = Some(Box::new(make_list(vec![1, 2, 3, 4, 5])));
-      let after = Some(Box::new(make_list(vec![1, 2, 3, 5])));
-      assert_eq!(remove_nth_from_end(before, 2), after);
-   }
+   // #[test]
+   // fn remove_nth_from_end_test() {
+   //    let before = Some(Box::new(make_list(vec![1, 2, 3, 4, 5])));
+   //    let after = Some(Box::new(make_list(vec![1, 2, 3, 5])));
+   //    assert_eq!(remove_nth_from_end(before, 2), after);
+   // }
    fn make_list(indeces: Vec<i32>) -> ListNode {
       let mut list = ListNode::new(*indeces.first().unwrap());
       for val in indeces.into_iter().skip(1) {

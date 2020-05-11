@@ -8,9 +8,9 @@
          "name": "(Windows) Запустить",
          "type": "cppvsdbg",
          "request": "launch",
-         "program": "${workspaceFolder}/target/debug/leetcode-2cd2c619a401d3a9.exe",
+         "program": "${workspaceFolder}/target/debug/leetcode.exe",
          "args": [],
-         "stopAtEntry": false,
+         "stopAtEntry": true,
          "cwd": "${workspaceFolder}",
          "environment": [],
          "externalConsole": false
