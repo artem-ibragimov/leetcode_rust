@@ -1,9 +1,9 @@
-mod longest_prefix;
-mod valid_anagram;
-mod count_and_say;
-mod reverse_int;
-mod palindrome;
-mod uniq_char;
-mod index_of;
-mod reverse;
 mod atoi;
+mod count_and_say;
+mod index_of;
+mod longest_prefix;
+mod palindrome;
+mod reverse;
+mod reverse_int;
+mod uniq_char;
+mod valid_anagram;
