@@ -1,4 +1,5 @@
 mod contains_duplicate;
+mod split_n_add;
 mod intersect;
 mod max_profit;
 mod move_zeroes;
